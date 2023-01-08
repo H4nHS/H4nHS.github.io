@@ -1,14 +1,8 @@
 const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-form input");
 const hello = document.querySelector("#hello");
-const nowTime = document.querySelector("#now");
 
 const HIDDEN_CLASSNAME = "hidden";
-
-function now() {
-    const now = new Date();
-    nowTime.innerText = now;
-}
 
 function onLoginSubmit(e) {
     e.preventDefault();
